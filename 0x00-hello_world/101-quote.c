@@ -1,5 +1,4 @@
 #include <unistd.h>
-
 /**
  * main - prints a text
  *
