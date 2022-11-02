@@ -27,6 +27,7 @@ int str_checker(char *s1, char *s2, int i, int j)
  * wildcmp - check if strings could be considered identical
  * @s1: base address for string.
  * @s2: base address for string.
+ *
  * Return: 1 if are considered identical.
  */
 
