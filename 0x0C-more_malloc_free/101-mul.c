@@ -4,6 +4,7 @@
  * _print - moves a string one place to the left and prints the string
  * @str: string to move
  * @l: size of string
+ *
  * Return: void
  */
 
@@ -21,10 +22,10 @@ void _print(char *str, int l)
 			_putchar(str[i]);
 		i++;
 	}
+
 	_putchar('\n');
 	free(str);
 }
-
 
 /**
  * mul - multiplies a char with a string and places the answer into dest
@@ -35,7 +36,6 @@ void _print(char *str, int l)
  * @dest_index: highest index to start addition
  * Return: pointer to dest, or NULL on failure
  */
-
 char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 
 {
@@ -93,6 +93,8 @@ int check_for_digits(char **av)
 void init(char *str, int l)
 
 {
+	int i;
+
 	for (i = 0; i < l; i++)
 		str[i] = '0';
 	str[i] = '\0';
